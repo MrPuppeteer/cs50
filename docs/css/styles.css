@@ -1,0 +1,63 @@
+body {
+    font-family: monospace;
+}
+
+.reset-link, .reset-link:hover, .reset-link:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.reset-link:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    }
+}
+
+/* typewriter animation */
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
