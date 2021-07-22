@@ -27,6 +27,12 @@ p {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 0.8rem;
+    }
+}
+
 @media (min-width: 768px) {
     .footer {
     position: fixed;
