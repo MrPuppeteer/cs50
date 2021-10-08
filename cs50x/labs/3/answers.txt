@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Because best case scenario is faster than sort3 while in the worst case scenario it's somewhat slower than sort3 that I believe it's selection sort, so It's obviously bubble sort.
+
+sort2 uses: merge sort
+
+How do you know?: Because both best case and worst case scenario it takes the same amount of time and it's faster than sort3 so it's n log n.
+
+sort3 uses: selection sort
+
+How do you know?: Because both best case and worst case scenario it takes the same amount of time that is n^2.

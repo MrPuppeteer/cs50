@@ -1,0 +1,10 @@
+Check if the program was run with one arg, if it's not return 1
+Iterate over the arg to make sure all chars are digits
+Convert that arg from a string to an int
+Asks user for plaintext
+Iterate over each char of the plaintext:
+    If it is an uppercase letter, rotate it, preserving case, then print out the rotated character
+    If it is a lowercase letter, rotate it, preserving case, then print out the rotated character
+    If it is neither, print out the character as is
+Print a newline
+return 0
